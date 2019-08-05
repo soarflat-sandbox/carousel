@@ -1,7 +1,5 @@
 @import 'partial/reset';
-@import 'partial/module';
 @import 'partial/layout';
-@import 'partial/modal';
 
 body {
   background: #eee;
@@ -46,18 +44,24 @@ h1 {
   position: absolute;
   z-index: 2;
   top: 50%;
-  left: 20px;
-  padding: 10px;
+  left: 5vw;
+  font-size: 5vw;
+  padding: 2vw;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
 }
 
 .carousel-next {
   position: absolute;
   z-index: 2;
   top: 50%;
-  right: 20px;
-  padding: 10px;
+  right: 5vw;
+  font-size: 5vw;
+  padding: 2vw;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
 }
