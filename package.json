@@ -1,0 +1,41 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "NODE_ENV=development webpack --watch --progress",
+    "build": "NODE_ENV=production webpack --progress",
+    "start": "NODE_ENV=development webpack-dev-server --hot --inline --open",
+    "lint": "eslint --fix resource/js/**/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.23.6",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "prettier": "^1.10.2",
+    "webpack": "^4.35.3",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "core-js": "^3.1.4",
+    "regenerator-runtime": "^0.13.2"
+  }
+}
